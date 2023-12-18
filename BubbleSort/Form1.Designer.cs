@@ -149,14 +149,14 @@
             Controls.Add(acceptButton);
             Controls.Add(label1);
             Controls.Add(userInput);
-            base.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point);
             ForeColor = SystemColors.ButtonFace;
             Margin = new Padding(4);
             MaximumSize = new Size(1920, 1080);
             MinimumSize = new Size(1920, 1080);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Пузырек наглядно";
+            Text = "BubbleSort";
             ((System.ComponentModel.ISupportInitialize)pictureBox).EndInit();
             ResumeLayout(false);
             PerformLayout();

@@ -55,7 +55,7 @@ namespace BubbleSort
                 return new Font("Century Gothic", 10);
             }
         }
-        
+
         public Form1()
         {
             whitePen = new Pen(Color.FromKnownColor(KnownColor.WhiteSmoke), 2);
@@ -157,7 +157,7 @@ namespace BubbleSort
                         await Task.Delay(msDelay);
 
                         (arrayToSort[j], arrayToSort[j + 1]) = (arrayToSort[j + 1], arrayToSort[j]);
-                        
+
                         UpdateDrawing();
                         Draw(j, j + 1);
                         pictureBox.Image = bitmap;
